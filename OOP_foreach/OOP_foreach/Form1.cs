@@ -16,6 +16,7 @@ namespace OOP_foreach
         public Form1()
         {
             InitializeComponent();
+            global
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -33,6 +34,16 @@ namespace OOP_foreach
                 MessageBox.Show(c.ToString());
             }
 
+            Car c1 = new Car(this.textBox1);
+
+
+        }
+        public static void doSomethingStatic()
+        {
+        }
+        public void doSomething()
+        {
+            TextBox te = this.textBox1;
         }
     }
 }

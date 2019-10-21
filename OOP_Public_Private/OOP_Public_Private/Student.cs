@@ -45,7 +45,11 @@ namespace OOP_Public_Private
                 {
                     this.namn = value;
                 }
-                
+                else
+                {
+                    //throw (new Exception)
+                    
+                }                   
             }
         }
     }
