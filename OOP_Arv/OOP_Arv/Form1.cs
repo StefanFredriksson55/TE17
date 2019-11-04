@@ -27,8 +27,6 @@ namespace OOP_Arv
             Motorcykel mc1 = new Motorcykel("DEF456", "Sadelfärg");
             fordonsLista.Add(bil1);
             fordonsLista.Add(mc1);
-
-
         }
     }
 }
